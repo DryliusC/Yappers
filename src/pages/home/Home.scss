@@ -1,0 +1,300 @@
+.home {
+  background-color: #110224;
+  // height: 95vh;
+  // width: 100vw;
+  position: relative;
+  right: 0;
+  left: 0;
+  padding: 10px 0px;
+  color: white;
+
+  .first {
+    height: 95vh;
+    width: 100vw;
+
+    .container {
+      display: grid;
+      grid-template-areas: "left center right";
+      color: white;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+
+      .left {
+        color: white;
+        grid-area: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        position: relative;
+        right: 100px;
+
+        img {
+          height: 400px;
+          width: auto;
+          border-radius: 13px;
+        }
+
+        .workers {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border: 1px transparent;
+          background-color: transparent;
+          border-radius: 13px;
+          padding: 10px 20px;
+          position: absolute;
+          bottom: -10%;
+          right: -50px;
+          background-color: rgba(0, 0, 0, 0.5);
+          backdrop-filter: blur(10px);
+          width: 200px;
+          text-align: center;
+
+          h3 {
+            filter: none;
+            color: rgb(128, 221, 237);
+          }
+
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+
+      .center {
+        grid-area: center;
+        display: flex;
+        width: 500px;
+        padding: 0;
+        margin: 0;
+
+        .container {
+          display: flex;
+          position: relative;
+          left: 15%;
+          flex-direction: column;
+          width: 100%;
+          height: 100%;
+          padding: 0px 10px;
+          align-items: center;
+          text-align: center;
+        }
+      }
+
+      .right {
+        grid-area: right;
+        position: relative;
+        left: 50px;
+
+        img {
+          border-radius: 13px;
+          position: relative;
+          top: -100px;
+        }
+        .satisfy {
+          width: 200px;
+          text-align: center;
+          position: absolute;
+          top: 100px;
+          left: -50px;
+          background-color: rgba(0, 0, 0, 0.5);
+          backdrop-filter: blur(10px);
+          border-radius: 13px;
+          padding: 5px 5px;
+
+          h2 {
+            font-weight: 400;
+            font-size: 20px;
+          }
+          h1 {
+            align-content: center;
+            align-self: center;
+            padding: 50px 0px;
+            border: 20px solid rgb(32, 161, 200);
+            border-radius: 100%;
+            p {
+              font-weight: 200;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .second {
+    width: 100vw;
+    height: 100vh;
+    padding-left: 90px;
+
+    .container{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+  .third {
+    width: 100vw;
+    height: 95vh;
+    .container {
+      display: grid;
+      grid-template-areas: "left right";
+      grid-template-columns: 50% 50%;
+      flex-direction: row;
+      height: 100%;
+      width: 100%;
+
+      .left {
+        grid-area: left;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        padding-left: 90px;
+
+        h1 {
+          margin-bottom: 30px;
+          font-size: 36px;
+        }
+
+        .box {
+          border: 1px solid gray;
+          border-radius: 13px;
+          width: 300px;
+          height: 150px;
+          padding-left: 40px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 10px;
+
+          h2{
+            img{
+              position: absolute;
+              width: 30px;
+              left: 100px;
+            }
+          }
+        }
+      }
+
+      .right {
+        grid-area: right;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        position: relative;
+
+        img {
+          width: auto;
+          height: 420px;
+          object-fit: cover;
+          bottom: 140px;
+        }
+
+        .circular {
+          position: absolute;
+          z-index: 1;
+          height: 300px;
+          bottom: 145px;
+          right: 380px;
+        }
+
+        .blueShirt {
+          position: absolute;
+          z-index: 3;
+          right: 80px;
+          height: 400px;
+        }
+
+        .creamShirt {
+          position: absolute;
+          z-index: 2;
+          right: 280px;
+        }
+      }
+    }
+  }
+  .fourth{
+    padding-left: 90px;
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+
+    .container{
+      width: 100%;
+      height: 100%;
+      gap: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+      h1{
+        font-size: 72px;
+      }
+
+      h2{
+        margin-bottom: 20px;
+        font-size: 36px;
+      }
+
+      .questions{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .question{
+          display: flex;
+          flex-direction: column;
+          width: 400px;
+          padding-left: 30px;
+
+          h3{
+            img{
+              position: absolute;
+              width: 25px;
+              left: 90px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .fifth{
+    width: 100vw;
+    height: 100vh;
+    padding-left: 90px;
+
+    .container{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+  .sixth{
+    width: 100vw;
+    height: 100vh;
+    padding-left: 90px;
+
+    .container{
+      display: flex;
+      flex-direction: column;
+
+      h1{
+        font-size: 36px;
+
+        span{
+          font-size: 48px;
+        }
+      }
+    }
+  }
+}

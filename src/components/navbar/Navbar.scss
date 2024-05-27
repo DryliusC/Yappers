@@ -1,0 +1,115 @@
+.navbar {
+  .container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #110224;
+    height: 5vh;
+    width: 100%;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+
+    .logo {
+      color: white;
+      font-weight: 1000;
+      font-size: larger;
+    }
+
+    .links {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+
+      span {
+        border: 1px transparent;
+        padding: 5px 5px;
+        border-radius: 25px;
+
+        &:hover {
+          background-color: #532e83;
+        }
+      }
+    }
+
+    .sign {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      align-items: center;
+
+      .search-bar-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        min-width: 200px;
+        justify-content: space-between;
+        background-color: #532e83;
+        border-radius: 13px;
+        padding-left: 5px;
+        height: 30px;
+        padding-right: 5px;
+        gap: 2px;
+
+        input{
+          background-color: #532e83;
+          border: none;
+          outline: none;
+          padding: 5px 5px;
+          color: white;
+        }
+
+        ::placeholder{
+          color: white;
+          opacity: 1;
+        }
+
+        
+        
+        img{
+          width: 20px;
+        }
+
+        button{
+          background-color: transparent;
+          cursor: pointer;
+          padding-right: 5px;
+          margin: 0;
+          &:hover{
+            background-color: transparent;
+          }
+        }
+      }
+
+      span {
+        border: 1px transparent;
+        padding: 5px 5px;
+        border-radius: 25px;
+
+        &:hover {
+          background-color: #532e83;
+        }
+      }
+
+      button {
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+        cursor: pointer;
+        border: 1px transparent;
+        padding: 10px 20px;
+        border-radius: 30px;
+        background-color: #007be5;
+        border-color: #0d99ff;
+
+        &:hover {
+          background-color: #035094;
+        }
+      }
+    }
+  }
+
+  hr {
+    border: 1px solid rgb(58, 6, 75);
+  }
+}

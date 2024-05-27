@@ -1,0 +1,91 @@
+.gig {
+  display: flex;
+  justify-content: center;
+  background-color: #110224;
+  color: white;
+  padding-top: 50px;
+
+  .container {
+    width: 1400px;
+    padding: 30px 0px;
+    display: flex;
+    gap: 30px;
+
+    .left {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .desc{
+        width: 700px;
+      }
+
+      .rating {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+
+        .stars {
+          display: flex;
+          flex-direction: row;
+          gap: 5px;
+
+          img {
+            width: 16px;
+            height: 16px;
+          }
+        }
+        .top{
+            border: 1px solid white;
+            border-radius: 13px;
+            padding: 5px;
+            font-size: 9px;
+            font-weight: 800;
+            background-color: orange;
+        }
+      }
+
+      video{
+        width: 800px;
+        height: 500px;
+      }
+
+      .user{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+
+        img{
+            width: 32px;
+            height: 32px;
+        }
+
+        .info{
+            span{
+                font-weight: 500;
+            }
+            p{
+                font-size: smaller;
+                font-weight: 300;
+            }
+        }
+      }
+      
+    }
+
+    .right {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+      .container {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+      }
+    }
+  }
+}

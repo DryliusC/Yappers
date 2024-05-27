@@ -1,0 +1,44 @@
+.gigs{
+    background-color: #110224;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .container{
+        width: 1400px;
+        height: 100%;
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        .menu{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+
+            span{
+                border-bottom: 3px solid lightgray;
+                padding: 5px 5px;
+                cursor: pointer;
+                &:hover{
+                    border-color: rgb(88, 88, 193);
+                    color: rgb(88, 88, 193);
+                }
+            }
+            .filter-item.active{
+                border-color: rgb(88, 88, 193);
+                color: rgb(4, 165, 234);
+            }
+        }
+        
+        .cards{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+}
