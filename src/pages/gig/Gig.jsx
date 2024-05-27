@@ -36,13 +36,27 @@ export default function Gig() {
               </p>
             </div>
           </div>
-          <h2>About this course</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
-            assumenda consectetur maiores vero ab error ipsam maxime iure sint
-            ullam dolores eveniet, inventore aliquid deserunt repellendus
-            aspernatur eos, impedit optio?
-          </p>
+          <div className="about">
+            <h2>About this course</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+              assumenda consectetur maiores vero ab error ipsam maxime iure sint
+              ullam dolores eveniet, inventore aliquid deserunt repellendus
+              aspernatur eos, impedit optio?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+              assumenda consectetur maiores vero ab error ipsam maxime iure sint
+              ullam dolores eveniet, inventore aliquid deserunt repellendus
+              aspernatur eos, impedit optio?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+              assumenda consectetur maiores vero ab error ipsam maxime iure sint
+              ullam dolores eveniet, inventore aliquid deserunt repellendus
+              aspernatur eos, impedit optio?
+            </p>
+          </div>
           <div className="reviews">
             <h2>Reviews</h2>
             <Slider slidesToShow={2} arrowsScroll={2}>

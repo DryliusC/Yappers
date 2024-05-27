@@ -15,7 +15,7 @@
       flex: 2;
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 20px;
 
       .desc{
         width: 700px;
@@ -70,10 +70,17 @@
             p{
                 font-size: smaller;
                 font-weight: 300;
+                width: 750px;
             }
         }
       }
-      
+
+      .about{
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        gap: 10px;
+      }
     }
 
     .right {
