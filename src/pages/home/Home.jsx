@@ -27,7 +27,7 @@ function Home() {
       <div className="first">
         <div className="container">
           <div className="left">
-            <img src="../images/left_home.jpg" alt="" className="left_pic" />
+            <img src="../../../public/img/left_home.jpg" alt="" className="left_pic" />
             <div className="workers">
               <h3>1000+ WORKERS</h3>
               <br />
@@ -46,7 +46,7 @@ function Home() {
             </div>
           </div>
           <div className="right">
-            <img src="../images/right_home.jpg" alt="right_pic" />
+            <img src="../../../public/img/right_home.jpg" alt="right_pic" />
             <div className="satisfy">
               <h2>PERFECT CLIENTS SATISFACTION</h2>
               <h1>
@@ -74,7 +74,7 @@ function Home() {
             <div className="box">
               <h2>
                 <img
-                  src="./images/checklist.png"
+                  src="../../../public/img/checklist.png"
                   alt=""
                   className="checklist"
                 />
@@ -89,7 +89,7 @@ function Home() {
             <div className="box">
               <h2>
                 <img
-                  src="./images/checklist.png"
+                  src="../../../public/img/checklist.png"
                   alt=""
                   className="checklist"
                 />
@@ -104,7 +104,7 @@ function Home() {
             <div className="box">
               <h2>
                 <img
-                  src="./images/checklist.png"
+                  src="../../../public/img/checklist.png"
                   alt=""
                   className="checklist"
                 />
@@ -118,9 +118,9 @@ function Home() {
             </div>
           </div>
           <div className="right">
-            <img src="./images/circular.png" alt="" className="circular" />
-            <img src="./images/cream-shirt.png" alt="" className="creamShirt" />
-            <img src="./images/blue-shirt.png" alt="" className="blueShirt" />
+            <img src="../../../public/img/circular.png" alt="" className="circular" />
+            <img src="../../../public/img/cream-shirt.png" alt="" className="creamShirt" />
+            <img src="../../../public/img/blue-shirt.png" alt="" className="blueShirt" />
           </div>
         </div>
       </div>
@@ -132,7 +132,7 @@ function Home() {
             <div className="question">
               <h3>
                 <img
-                  src="./images/checklist.png"
+                  src="../../../public/img/checklist.png"
                   alt=""
                   className="checklist"
                 />
@@ -147,7 +147,7 @@ function Home() {
             <div className="question">
               <h3>
                 <img
-                  src="./images/checklist.png"
+                  src="../../../public/img/checklist.png"
                   alt=""
                   className="checklist"
                 />
@@ -162,7 +162,7 @@ function Home() {
             <div className="question">
               <h3>
                 <img
-                  src="./images/checklist.png"
+                  src="../../../public/img/checklist.png"
                   alt=""
                   className="checklist"
                 />

@@ -15,18 +15,18 @@ export default function Gig() {
           </p>
           <div className="rating">
             <div className="stars">
-              <img src="./img/star.png" alt="" />
-              <img src="./img/star.png" alt="" />
-              <img src="./img/star.png" alt="" />
-              <img src="./img/star.png" alt="" />
-              <img src="./img/star.png" alt="" />
+              <img src="../../../public/img/star.png" alt="" />
+              <img src="../../../public/img/star.png" alt="" />
+              <img src="../../../public/img/star.png" alt="" />
+              <img src="../../../public/img/star.png" alt="" />
+              <img src="../../../public/img/star.png" alt="" />
             </div>
             <p>4.7 (938 Reviews)</p>
             <p className="top">TOP RATED SELLERS</p>
           </div>
           <video controls autoPlay src="../videos/gig-video.mp4"></video>
           <div className="user">
-            <img src="../img/circular.png" alt="" />
+            <img src=".../../../public/img/circular.png" alt="" />
             <div className="info">
               <span>Giovanni B.</span>
               <p>
@@ -59,62 +59,78 @@ export default function Gig() {
           </div>
           <div className="reviews">
             <h2>Reviews</h2>
-            <Slider slidesToShow={2} arrowsScroll={2}>
+            <Slider slidesToShow={2} arrowsScroll={2} className="slider">
               <div className="item">
-                <div className="user">
-                  <img src="./img/circular.png" alt="" />
-                  <p>Karldritz Farrel</p>
-                  <div className="stars">
-                    <img src="./img/star.png" alt="" />
-                    <img src="./img/star.png" alt="" />
-                    <img src="./img/star.png" alt="" />
-                    <img src="./img/star.png" alt="" />
-                    <img src="./img/star.png" alt="" />
+                <div className="container">
+                  <div className="user">
+                    <div className="username">
+                      <img src="../../../public/img/circular.png" alt="" />
+                      <p>Karldritz Farrel</p>
+                    </div>
+                    <div className="stars">
+                      <img src="../../../public/img/star.png" alt="" />
+                      <img src="../../../public/img/star.png" alt="" />
+                      <img src="../../../public/img/star.png" alt="" />
+                      <img src="../../../public/img/star.png" alt="" />
+                      <img src="../../../public/img/star.png" alt="" />
+                    </div>
                   </div>
+                  <p>Lorem ipsum dolor sit amet.</p>
                 </div>
-                <p>Lorem ipsum dolor sit amet.</p>
               </div>
               <div className="item">
-                <div className="user">
-                  <img src="./img/circular.png" alt="" />
-                  <p>Karldritz Farrel</p>
-                  <div className="stars">
-                    <img src="./img/star.png" alt="" />
-                    <img src="./img/star.png" alt="" />
-                    <img src="./img/star.png" alt="" />
-                    <img src="./img/star.png" alt="" />
-                    <img src="./img/star.png" alt="" />
+                <div className="container">
+                  <div className="user">
+                    <div className="username">
+                      <img src="../../../public/img/circular.png" alt="" />
+                      <p>Karldritz Farrel</p>
+                    </div>
+                    <div className="stars">
+                      <img src="../../../public/img/star.png" alt="" />
+                      <img src="../../../public/img/star.png" alt="" />
+                      <img src="../../../public/img/star.png" alt="" />
+                      <img src="../../../public/img/star.png" alt="" />
+                      <img src="../../../public/img/star.png" alt="" />
+                    </div>
                   </div>
+                  <p>Lorem ipsum dolor sit amet.</p>
                 </div>
-                <p>Lorem ipsum dolor sit amet.</p>
               </div>
               <div className="item">
-                <div className="user">
-                  <img src="./img/circular.png" alt="" />
-                  <p>Karldritz Farrel</p>
-                  <div className="stars">
-                    <img src="./img/star.png" alt="" />
-                    <img src="./img/star.png" alt="" />
-                    <img src="./img/star.png" alt="" />
-                    <img src="./img/star.png" alt="" />
-                    <img src="./img/star.png" alt="" />
+                <div className="container">
+                  <div className="user">
+                    <div className="username">
+                      <img src="../../../public/img/circular.png" alt="" />
+                      <p>Karldritz Farrel</p>
+                    </div>
+                    <div className="stars">
+                      <img src="../../../public/img/star.png" alt="" />
+                      <img src="../../../public/img/star.png" alt="" />
+                      <img src="../../../public/img/star.png" alt="" />
+                      <img src="../../../public/img/star.png" alt="" />
+                      <img src="../../../public/img/star.png" alt="" />
+                    </div>
                   </div>
+                  <p>Lorem ipsum dolor sit amet.</p>
                 </div>
-                <p>Lorem ipsum dolor sit amet.</p>
               </div>
               <div className="item">
-                <div className="user">
-                  <img src="./img/circular.png" alt="" />
-                  <p>Karldritz Farrel</p>
-                  <div className="stars">
-                    <img src="./img/star.png" alt="" />
-                    <img src="./img/star.png" alt="" />
-                    <img src="./img/star.png" alt="" />
-                    <img src="./img/star.png" alt="" />
-                    <img src="./img/star.png" alt="" />
+                <div className="container">
+                  <div className="user">
+                    <div className="username">
+                      <img src="../../../public/img/circular.png" alt="" />
+                      <p>Karldritz Farrel</p>
+                    </div>
+                    <div className="stars">
+                      <img src="../../../public/img/star.png" alt="" />
+                      <img src="../../../public/img/star.png" alt="" />
+                      <img src="../../../public/img/star.png" alt="" />
+                      <img src="../../../public/img/star.png" alt="" />
+                      <img src="../../../public/img/star.png" alt="" />
+                    </div>
                   </div>
+                  <p>Lorem ipsum dolor sit amet.</p>
                 </div>
-                <p>Lorem ipsum dolor sit amet.</p>
               </div>
             </Slider>
           </div>
@@ -125,28 +141,31 @@ export default function Gig() {
             <h1>
               $<span>32</span>
             </h1>
-            <button>ORDER NOW</button>
-            <button>Free Preview</button>
+            <div className="tombol">
+              <button className="order">ORDER NOW</button>
+              <button>Free Preview</button>
+              <p>4 days delivery</p>
+            </div>
             <div className="checks">
               <span>
-                <img src="./img/checklist.png" alt="" />
+                <img src="../../../public/img/checklist.png" alt="" className="checklist" />
                 Royalty and Copyright free
               </span>
               <span>
-                <img src="./img/checklist.png" alt="" />
+                <img src="../../../public/img/checklist.png" alt="" className="checklist" />
                 Motion Graphic
               </span>
               <span>
-                <img src="./img/checklist.png" alt="" />
+                <img src="../../../public/img/checklist.png" alt="" className="checklist" />
                 Sound Effects
               </span>
               <span>
-                <img src="./img/checklist.png" alt="" />
+                <img src="../../../public/img/checklist.png" alt="" className="checklist" />
                 Project file included
               </span>
             </div>
           </div>
-          <button>Message Seller</button>
+          <button className="message">Message Seller</button>
         </div>
       </div>
     </div>

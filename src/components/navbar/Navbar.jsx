@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className="sign">
           <div className="search-bar-container">
               <input type="text" name="" id="" placeholder="Search.."/>
-              <button><img src="./images/search.png" alt="" /></button>
+              <button><img src="../../../img/search.png" alt="" /></button>
           </div>
           <Link to="/login" className="link">
             {!currentUser?.isSeller && <span>Sign-in</span>}
