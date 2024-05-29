@@ -38,13 +38,17 @@ const Navbar = () => {
         </div>
         <div className="sign">
           <div className="search-bar-container">
-              <input type="text" name="" id="" placeholder="Search.."/>
-              <button><img src="../../../img/search.png" alt="" /></button>
+            <input type="text" name="" id="" placeholder="Search.." />
+            <button>
+              <img src="../../../img/search.png" alt="" />
+            </button>
           </div>
           <Link to="/login" className="link">
             {!currentUser?.isSeller && <span>Sign-in</span>}
           </Link>
-          {!currentUser?.isSeller && <button>Sign-up</button>}
+          <Link to="/register" className="link">
+            {!currentUser?.isSeller && <button>Sign-up</button>}
+          </Link>
         </div>
       </div>
       <hr />

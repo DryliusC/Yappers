@@ -1,4 +1,7 @@
 import React from "react";
+import {
+  Link
+} from "react-router-dom";
 import "./Login.scss";
 
 export default function Login() {
@@ -39,7 +42,10 @@ export default function Login() {
             <span className="line"></span>
           </div>
           <p>
-            Don't have an account? <span>Sign-up</span>
+            Don't have an account?
+            <Link to="/register" className="link">
+              <span>Sign-up</span>
+            </Link>
           </p>
         </div>
         <div className="right">

@@ -11,6 +11,7 @@ import Message from "./pages/message/Message"
 import Messages from "./pages/messages/Messages"
 import Login from "./pages/login/Login"
 import Gig from "./pages/gig/Gig"
+import Register from "./pages/register/Register"
 import "./App.scss"
 import {
   createBrowserRouter,
@@ -50,8 +51,8 @@ function App() {
           element: <Orders/>,
         },
         {
-          path:"/About-us",
-          element: <About/>,
+          path:"/register",
+          element: <Register/>,
         },
         {
           path:"/join-seller",
