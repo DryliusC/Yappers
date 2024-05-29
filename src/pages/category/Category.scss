@@ -1,0 +1,61 @@
+.cat{
+    background-color: #110224;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .container{
+        width: 1400px;
+        height: 100%;
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .recommendation{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 20px;
+
+            .text{
+                h1{
+                    color: aqua;
+                    font-size: 68px;
+                }
+            }
+            .card{
+                width: 1400px;
+                align-self: center;
+
+                .recSlide{
+                    img{
+                        width: 450px;
+                        height: 300px;
+                    }
+                }
+            }
+        }
+
+        .menu{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            span{
+                border-bottom: 3px solid lightgray;
+                padding: 5px 5px;
+                cursor: pointer;
+                &:hover{
+                    border-color: rgb(88, 88, 193);
+                    color: rgb(88, 88, 193);
+                }
+            }
+            .filter-item.active{
+                border-color: rgb(88, 88, 193);
+                color: rgb(4, 165, 234);
+            }
+        } 
+    }
+}
